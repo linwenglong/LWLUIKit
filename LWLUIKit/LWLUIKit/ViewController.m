@@ -23,7 +23,10 @@
     [self.view addSubview:view];
     
     
-    NSLog(@"asdasdasdasdasdasdasd");
+    UIView *view1 = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 100, 100)];
+    view1.backgroundColor = [UIColor redColor];
+    view1.center = self.view.center;
+    [self.view addSubview:view1];
     
     // Do any additional setup after loading the view, typically from a nib.
 }
