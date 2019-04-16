@@ -16,6 +16,7 @@
 		102B5324212EB9EA004A08D6 /* LWLUIKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 102B5323212EB9EA004A08D6 /* LWLUIKitTests.m */; };
 		102B532F212EB9EA004A08D6 /* LWLUIKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 102B532E212EB9EA004A08D6 /* LWLUIKitUITests.m */; };
 		10D8A0522265610100B5498F /* LWLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D8A0512265610100B5498F /* LWLViewController.m */; };
+		10D8A0552265620000B5498F /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D8A0542265620000B5498F /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		102B5330212EB9EA004A08D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10D8A0502265610100B5498F /* LWLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWLViewController.h; sourceTree = "<group>"; };
 		10D8A0512265610100B5498F /* LWLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWLViewController.m; sourceTree = "<group>"; };
+		10D8A0532265620000B5498F /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		10D8A0542265620000B5498F /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				102B530E212EB9EA004A08D6 /* ViewController.m */,
 				10D8A0502265610100B5498F /* LWLViewController.h */,
 				10D8A0512265610100B5498F /* LWLViewController.m */,
+				10D8A0532265620000B5498F /* TestViewController.h */,
+				10D8A0542265620000B5498F /* TestViewController.m */,
 				102B5310212EB9EA004A08D6 /* Main.storyboard */,
 				102B5313212EB9EA004A08D6 /* Assets.xcassets */,
 				102B5315212EB9EA004A08D6 /* LaunchScreen.storyboard */,
@@ -274,6 +279,7 @@
 				102B530F212EB9EA004A08D6 /* ViewController.m in Sources */,
 				102B531A212EB9EA004A08D6 /* main.m in Sources */,
 				102B530C212EB9EA004A08D6 /* AppDelegate.m in Sources */,
+				10D8A0552265620000B5498F /* TestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
